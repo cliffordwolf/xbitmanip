@@ -542,6 +542,10 @@ concrete processor it is optimizing for. This is similar to the decision
 whether to use MUL or DIV with a constant, or to perform the same operation
 using a longer sequence of much simpler operations.
 
+\texttt{bext} and \texttt{bdep} can be encoded in the space of the M extension,
+as like \texttt{mul} and \texttt{div} they operate only on registers rather than
+immediates.
+
 \input{bextscagat.tex}
 
 % \subsection{Justification}
